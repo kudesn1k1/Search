@@ -20,4 +20,4 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${BINARY_DIR}/lib")
 #расположенных в заданных подкаталогах
 add_subdirectory(src)
 add_subdirectory(tst)
-add_subdirectory(googletest)
+add_subdirectory(google)
