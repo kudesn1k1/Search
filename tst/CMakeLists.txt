@@ -3,7 +3,7 @@ add_executable(Search Main.cpp)
 
 # добавление каталогов к списку каталогов, в которых компилятор 
 # ищет заголовочные файлы, подключаемые директивами #include
-include_directories(../googletest)
+include_directories(../google)
 include_directories(../src)
 
 #определение подключаемых библиотек Search_lib и gtest
